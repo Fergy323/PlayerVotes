@@ -1,0 +1,19 @@
+name: PlayerVotes
+main: me.fergy323.playervotes.PlayerVotes
+version: 0.1.0
+author: Fergy :)
+commands:
+  startvote:
+    description: Starts the specified vote on the target player.
+    usage: /startvote <type> <player>
+  voteyes:
+    description: Votes yes on the current vote.
+    usage: /voteyes
+    aliases: votey
+  voteno:
+    description: Votes no on the current vote.
+    usage: /voteno
+    aliases: voten
+  reloadvotes:
+    description: Reloads and registers edited votes.yml
+    usage: /reloadvotes
